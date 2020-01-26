@@ -1,0 +1,8 @@
+/* Amount of unknown = */ 2
+/* Amount of equations = */ 3
+/* min/max */ min
+/* f() = */ 11 + 3
+// Enter your system of linear equations below
+2 - 7 < 12
+-1 + 1 < 4
+3 + 4 < 30
