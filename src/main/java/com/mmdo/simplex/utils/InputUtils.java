@@ -20,9 +20,10 @@ public class InputUtils {
 
     public List<String> readFileFromResources(String fileName) {
         try {
-            URL resource = getClass().getClassLoader().getResource(fileName);
+            URL resource = this.getClass().getClassLoader().getResource(fileName);
             if (resource != null) {
                 return Files.readAllLines(new File(resource.getFile()).toPath());
+//                return Files.readAllLines(Paths.get("src/main/resources/" + fileName));
             }
             return null;
         } catch (IOException e) {
