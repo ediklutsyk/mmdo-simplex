@@ -1,7 +1,5 @@
 package com.mmdo.simplex.DTO;
 
-import javafx.util.Pair;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -87,6 +85,7 @@ public class Table {
             System.out.println();
             System.out.println(new String(new char[header.length()]).replace('\0', '-'));
         }
+        System.out.println();
         System.out.println();
     }
 

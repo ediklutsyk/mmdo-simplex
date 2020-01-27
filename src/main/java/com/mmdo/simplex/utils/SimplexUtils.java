@@ -1,10 +1,6 @@
 package com.mmdo.simplex.utils;
 
-import com.mmdo.simplex.DTO.Condition;
-import com.mmdo.simplex.DTO.Fraction;
-import com.mmdo.simplex.DTO.SAE;
-import com.mmdo.simplex.DTO.Table;
-import javafx.util.Pair;
+import com.mmdo.simplex.DTO.*;
 
 import java.util.ArrayList;
 import java.util.Arrays;
